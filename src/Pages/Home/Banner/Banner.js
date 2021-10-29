@@ -6,7 +6,7 @@ import banner3 from '../../../images/banner/banner3.jpg';
 
 const Banner = () => {
     return (
-        <div>
+        <div className="mb-5">
             <Carousel fade>
                 <Carousel.Item>
                     <img
@@ -16,7 +16,7 @@ const Banner = () => {
                     />
                     <Carousel.Caption>
                         <h3>Travel Sylhet</h3>
-                        <p>Traditional ayurvedic remedies for your wellness.</p>
+                        <p>Travel to beautiful locations in Sylhet with us.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -28,7 +28,7 @@ const Banner = () => {
 
                     <Carousel.Caption>
                         <h3>Travel Sylhet</h3>
-                        <p>Promotes internal cleansing for improved health.</p>
+                        <p>See the natural beauty of Sylhet and enjoy your stay.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
@@ -40,7 +40,7 @@ const Banner = () => {
 
                     <Carousel.Caption>
                         <h3>Travel Sylhet</h3>
-                        <p>Get rid of toxins from your body with traditional herbs.</p>
+                        <p>Refresh your mind with beautiful and peaceful scenarios.</p>
                     </Carousel.Caption>
                 </Carousel.Item>
             </Carousel>

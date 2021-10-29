@@ -3,7 +3,7 @@ import './Facilities.css';
 
 const Facilities = () => {
     return (
-        <div>
+        <div id="facilities">
             <h2>Our Facilities</h2>
             <div className="container px-4">
                 <div className="row gx-5">
