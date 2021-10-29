@@ -1,8 +1,9 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Service.css'
 
 const Service = ({ service }) => {
-    const { destination, bestFor, description, duration, cost, img } = service;
+    const { destination, bestFor, description, duration, cost, img, id } = service;
     return (
         <div className="location">
             <img width="100%" src={img} alt="" />
@@ -11,7 +12,9 @@ const Service = ({ service }) => {
             <p>{description}</p>
             <h6>{duration}</h6>
             <h5>Package Price: {cost} /person</h5>
-            <button>Book Now</button>
+            <Link to={`/booking/${id}`}>
+                <button>Book Now</button>
+            </Link>
         </div>
     );
 };
