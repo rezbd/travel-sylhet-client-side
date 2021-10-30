@@ -10,20 +10,18 @@
     {
         "id":"002",
         "destination":"Madhabkunda Waterfall",
-        "bestFor":"Biggest waterfall in Bangladesh",
-        "description":"Hamdard Chyabanprash is an ideal tonic of the east, containing valuable natural ingredients, fortified with honey, prepared with the ancient wisdom and modern research & technology. Hamdard Chyabanprash keeps you physically fit and mentally alert.",
+        "bestFor":"One of the highest waterfalls in Bangladesh. Big boulders, surrounding forest, and the adjoining streams attracts many tourists for picnic parties and day trips.",
         "duration":"1",
-        "cost":"5000",
-        "img":"https://rehabconceptspt.com/wp-content/uploads/2016/06/placeholder-640-square.jpg"
+        "cost":"5200",
+        "img":"https://i.ibb.co/866GYQT/2madhabkunda.jpg"
     },
     {
         "id":"003",
         "destination":"Lawachara National Park",
-        "bestFor":"beautiful scenario, river, mountain view",
-        "description":"Hamdard Chyabanprash is an ideal tonic of the east, containing valuable natural ingredients, fortified with honey, prepared with the ancient wisdom and modern research & technology. Hamdard Chyabanprash keeps you physically fit and mentally alert.",
+        "bestFor":"Lawachara National Park is best known for the relative ease of seeing primates including four globally threatened species: Northern Pig-tailed Macaque, Phayre's Leaf Monkey, Capped Langur, and the most important population in Bangladesh of Western Hoolock Gibbon, the only ape found in Bangladesh.",
         "duration":"1",
-        "cost":"5000",
-        "img":"https://rehabconceptspt.com/wp-content/uploads/2016/06/placeholder-640-square.jpg"
+        "cost":"5400",
+        "img":"https://i.ibb.co/F7nWYgM/3lauachora.jpg"
     },
     {
         "id":"004",

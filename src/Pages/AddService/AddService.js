@@ -1,11 +1,23 @@
+import axios from 'axios';
 import React from 'react';
 import { useForm } from "react-hook-form";
 import './AddService.css';
 
 const AddService = () => {
-    const { register, handleSubmit } = useForm();
+
+    const { register, handleSubmit, reset } = useForm();
+
+    // need modification of alert
+    // reset() to rest the form
     const onSubmit = data => {
         console.log(data)
+        axios.post('http://localhost:5000/services', data)
+            .then(res => {
+                if (res.data.insertedId) {
+                    alert('successfully added');
+                    reset()
+                }
+            })
     }
 
     return (
@@ -13,7 +25,7 @@ const AddService = () => {
             <h2 className="mb-4">Add a New Destination</h2>
             <form className="add-destination" onSubmit={handleSubmit(onSubmit)}>
                 <h6>Destination</h6>
-                <input {...register("destination", { required: true, maxLength: 20 })} placeholder="Destination" />
+                <input {...register("destination", { required: true, maxLength: 40 })} placeholder="Destination" />
                 <br />
                 <h6>Famous For</h6>
                 <textarea {...register("bestFor")} placeholder="Famous For" />
