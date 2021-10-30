@@ -10,8 +10,8 @@ const Service = ({ service }) => {
             <h2>{destination}</h2>
             <h6>{bestFor}</h6>
             <p>{description}</p>
-            <h6>{duration}</h6>
-            <h5>Package Price: {cost} /person</h5>
+            <h6>Tour Duration: {duration} day</h6>
+            <h5>Price: BDT {cost} /person</h5>
             <Link to={`/booking/${id}`}>
                 <button>Book Now</button>
             </Link>

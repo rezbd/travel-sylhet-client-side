@@ -2,19 +2,18 @@
     {
         "id":"001",
         "destination":"Jaflong",
-        "bestFor":"beautiful scenario, river, mountain view",
-        "description":"Hamdard Chyabanprash is an ideal tonic of the east, containing valuable natural ingredients, fortified with honey, prepared with the ancient wisdom and modern research & technology. Hamdard Chyabanprash keeps you physically fit and mentally alert.",
-        "duration":"1 day",
-        "cost":"BDT 5000",
-        "img":"https://rehabconceptspt.com/wp-content/uploads/2016/06/placeholder-640-square.jpg"
+        "bestFor":"Jaflong is famous for its stone collections and is home of the Khasia tribe.",
+        "duration":"1",
+        "cost":"5000",
+        "img":"https://i.ibb.co/tcPFq0w/1jaflong.jpg"
     },
     {
         "id":"002",
         "destination":"Madhabkunda Waterfall",
-        "bestFor":"beautiful scenario, river, mountain view",
+        "bestFor":"Biggest waterfall in Bangladesh",
         "description":"Hamdard Chyabanprash is an ideal tonic of the east, containing valuable natural ingredients, fortified with honey, prepared with the ancient wisdom and modern research & technology. Hamdard Chyabanprash keeps you physically fit and mentally alert.",
-        "duration":"1 day",
-        "cost":"BDT 5000",
+        "duration":"1",
+        "cost":"5000",
         "img":"https://rehabconceptspt.com/wp-content/uploads/2016/06/placeholder-640-square.jpg"
     },
     {
@@ -22,8 +21,8 @@
         "destination":"Lawachara National Park",
         "bestFor":"beautiful scenario, river, mountain view",
         "description":"Hamdard Chyabanprash is an ideal tonic of the east, containing valuable natural ingredients, fortified with honey, prepared with the ancient wisdom and modern research & technology. Hamdard Chyabanprash keeps you physically fit and mentally alert.",
-        "duration":"1 day",
-        "cost":"BDT 5000",
+        "duration":"1",
+        "cost":"5000",
         "img":"https://rehabconceptspt.com/wp-content/uploads/2016/06/placeholder-640-square.jpg"
     },
     {
@@ -31,8 +30,8 @@
         "destination":"Ratargul Swamp Forest",
         "bestFor":"beautiful scenario, river, mountain view",
         "description":"Hamdard Chyabanprash is an ideal tonic of the east, containing valuable natural ingredients, fortified with honey, prepared with the ancient wisdom and modern research & technology. Hamdard Chyabanprash keeps you physically fit and mentally alert.",
-        "duration":"1 day",
-        "cost":"BDT 5000",
+        "duration":"1",
+        "cost":"5000",
         "img":"https://rehabconceptspt.com/wp-content/uploads/2016/06/placeholder-640-square.jpg"
     },
     {
@@ -40,8 +39,8 @@
         "destination":"Bisnakandi",
         "bestFor":"beautiful scenario, river, mountain view",
         "description":"Hamdard Chyabanprash is an ideal tonic of the east, containing valuable natural ingredients, fortified with honey, prepared with the ancient wisdom and modern research & technology. Hamdard Chyabanprash keeps you physically fit and mentally alert.",
-        "duration":"1 day",
-        "cost":"BDT 5000",
+        "duration":"1",
+        "cost":"5000",
         "img":"https://rehabconceptspt.com/wp-content/uploads/2016/06/placeholder-640-square.jpg"
     },
     {
@@ -49,8 +48,8 @@
         "destination":"Tanguar Haor",
         "bestFor":"beautiful scenario, river, mountain view",
         "description":"Hamdard Chyabanprash is an ideal tonic of the east, containing valuable natural ingredients, fortified with honey, prepared with the ancient wisdom and modern research & technology. Hamdard Chyabanprash keeps you physically fit and mentally alert.",
-        "duration":"1 day",
-        "cost":"BDT 5000",
+        "duration":"1",
+        "cost":"5000",
         "img":"https://rehabconceptspt.com/wp-content/uploads/2016/06/placeholder-640-square.jpg"
     }
 ]

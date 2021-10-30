@@ -12,6 +12,7 @@ import Footer from './Pages/Shared/Footer/Footer';
 import AuthProvider from './contexts/AuthProvider';
 import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
 import Booking from './Pages/Booking/Booking/Booking';
+import AddService from './Pages/AddService/AddService';
 
 function App() {
   return (
@@ -32,6 +33,9 @@ function App() {
             <PrivateRoute path="/booking/:serviceId">
               <Booking></Booking>
             </PrivateRoute>
+            <Route path="/addService">
+              <AddService></AddService>
+            </Route>
             <Route path="*">
               <Error></Error>
             </Route>
