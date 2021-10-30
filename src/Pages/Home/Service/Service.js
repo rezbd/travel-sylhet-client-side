@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './Service.css'
 
 const Service = ({ service }) => {
-    const { destination, bestFor, description, duration, cost, img, id } = service;
+    const { destination, bestFor, description, duration, cost, img, _id } = service;
     return (
         <div className="location">
             <img width="100%" src={img} alt="" />
@@ -12,7 +12,7 @@ const Service = ({ service }) => {
             <p>{description}</p>
             <h6>Tour Duration: {duration} day</h6>
             <h5>Price: BDT {cost} /person</h5>
-            <Link to={`/booking/${id}`}>
+            <Link to={`/booking/${_id}`}>
                 <button>Book Now</button>
             </Link>
         </div>
