@@ -4,7 +4,7 @@ import { useParams } from 'react-router';
 const Booking = () => {
     const { serviceId } = useParams();
     return (
-        <div>
+        <div className="mt-5 pt-5">
             <h2>Booking Trip: {serviceId}</h2>
         </div>
     );

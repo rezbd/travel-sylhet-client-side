@@ -6,11 +6,12 @@ import {
   Route,
 } from "react-router-dom";
 import Error from './Pages/Error/Error';
-import Booking from './Pages/Booking/Booking';
 import Login from './Pages/Login/Login/Login';
 import Header from './Pages/Shared/Header/Header';
 import Footer from './Pages/Shared/Footer/Footer';
 import AuthProvider from './contexts/AuthProvider';
+import PrivateRoute from './Pages/Login/PrivateRoute/PrivateRoute';
+import Booking from './Pages/Booking/Booking/Booking';
 
 function App() {
   return (
@@ -28,9 +29,9 @@ function App() {
             <Route path="/login">
               <Login></Login>
             </Route>
-            <Route path="/booking/:serviceId">
+            <PrivateRoute path="/booking/:serviceId">
               <Booking></Booking>
-            </Route>
+            </PrivateRoute>
             <Route path="*">
               <Error></Error>
             </Route>
