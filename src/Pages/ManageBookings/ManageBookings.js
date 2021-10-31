@@ -28,7 +28,7 @@ const ManageBookings = () => {
     }
 
     return (
-        <div className="my-5">
+        <div className="my-5 pt-4">
             <h2 className="my-5">Manage All Bookings</h2>
             <div className="manage-container">
                 {
