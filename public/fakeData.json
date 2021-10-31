@@ -29,54 +29,54 @@
         "bestFor":"Ratargul is the only freshwater swamp forest in Bangladesh. A dense forest comprising mostly native hijol and koroch trees, Ratargul offers a sanctuary for different species of birds, monkeys, snakes and other reptiles. The best time to visit Ratargul Swamp Forest is early in the morning or early in the evening in the rainy season.",
         "duration":"1",
         "cost":"5000",
-        "img":""
+        "img":"https://i.ibb.co/WsNPq4s/4ratargul.jpg"
     },
     {
         "id":"005",
         "destination":"Bisnakandi",
         "bestFor":"Bisnakandi is a village situated in Rustompur Union under Guainghat Upazilla. This is where many layers of the Khasi mountain meet at a single point from both sides. Flowing from above is a high fall. Adding to its charm are dark clouds hugging the mountain in the rainy season.",
         "duration":"1",
-        "cost":"5000",
-        "img":""
+        "cost":"6100",
+        "img":"https://i.ibb.co/ZKRxqyZ/5bichanakandi.jpg"
     },
     {
         "id":"006",
         "destination":"Tanguar Haor",
         "bestFor":"Tangoar Haor, which is a crucial hub for biodiversity, is home to a diverse range of birds. In winter, numerous migratory birds join the local birds giving rise to an eye-soothing abundance of fauna. Tangoar Haor is worth visiting in winter (December to February) when tourists would be greeted by thousands of local and migratory species of birds",
-        "duration":"1",
-        "cost":"5000",
-        "img":""
+        "duration":"2",
+        "cost":"8500",
+        "img":"https://i.ibb.co/BcXxRk1/6tanguar.jpg"
     },
     {
         "id":"007",
         "destination":"Lalakhal",
         "bestFor":"Lalakhal,which is another top tourist attraction in Jaintapur Upazilla, is covered with hills, natural forests, tea gardens, and rivers under the Jainta Hill which comprises part of the Meghalaya Ranges of India. A tourist can experience green water river, Range of mountain and Tea Garden- at once in Lalakhal.",
         "duration":"1",
-        "cost":"3000",
-        "img":""
+        "cost":"3600",
+        "img":"https://i.ibb.co/2hCQGfL/7lalakhan.jpg"
     },
     {
         "id":"008",
         "destination":"Panthumai",
         "bestFor":"Panthumai – a village from West Jaflong Union under Guainghat Upazilla – is another tourism hub in Sylhet. The village, which is very near to the east Khasia hill of the Meghalaya ranges, boasts of an eye-catching fall popularly known as Borhill Fall.",
         "duration":"1",
-        "cost":"4500",
-        "img":""
+        "cost":"5500",
+        "img":"https://i.ibb.co/y5kMFd5/8panthumai.jpg"
     },
     {
         "id":"009",
         "destination":"Lovachora",
         "bestFor":"Lovachora is a bordering area from Kanaighat Upazilla in the eastern part of Sylhet district, which is somewhat fortified from northeast to northwest by the Meghalayan ranges. The shades of far-flung hills falling on the crystal clear streams of the Lova make for a heavenly sight.",
         "duration":"1",
-        "cost":"4300",
-        "img":""
+        "cost":"4800",
+        "img":"https://i.ibb.co/Zx6dwsM/9lovachora.jpg"
     },
     {
         "id":"010",
         "destination":"Bholagonj",
         "bestFor":"Bholagonj, the largest stone quarry in Bangladesh, is 33 km away to the north from Sylhet city. The Meghalayan clouds, unremitting flow of waterfalls and ceaseless streams of rivers in the rainy season as well as the sandy shores of the Dholai that appear right after the rainy season are more than enough to mesmerize tourists.",
         "duration":"1",
-        "cost":"4700",
-        "img":""
+        "cost":"5700",
+        "img":"https://i.ibb.co/ngD86KH/10bholagonj.jpg"
     }
 ]

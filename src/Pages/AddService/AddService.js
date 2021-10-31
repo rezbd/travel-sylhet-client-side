@@ -22,10 +22,10 @@ const AddService = () => {
 
     return (
         <div className="my-5 py-4">
-            <h2 className="mb-4">Add a New Destination</h2>
+            <h2 className="mb-4">Add a New Tour</h2>
             <form className="add-destination" onSubmit={handleSubmit(onSubmit)}>
-                <h6>Destination</h6>
-                <input {...register("destination", { required: true, maxLength: 40 })} placeholder="Destination" />
+                <h6>Location</h6>
+                <input {...register("destination", { required: true, maxLength: 40 })} placeholder="Location" />
                 <br />
                 <h6>Famous For</h6>
                 <textarea {...register("bestFor")} placeholder="Famous For" />

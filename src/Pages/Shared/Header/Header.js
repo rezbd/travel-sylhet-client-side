@@ -28,7 +28,7 @@ const Header = () => {
                                     <Nav.Link as={Link} to="/manageBookings">Manage All Bookings</Nav.Link> : ''
                                 }
                                 {user?.email ?
-                                    <Nav.Link as={Link} to="/addService">Add Destination</Nav.Link> : ''
+                                    <Nav.Link as={Link} to="/addService">Add Tour</Nav.Link> : ''
                                 }
                                 {user?.email ?
                                     <Button onClick={logOut} variant="warning">Logout</Button> :
