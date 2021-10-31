@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import { useParams } from 'react-router';
+import { Link } from 'react-router-dom';
 import useAuth from '../../../hooks/useAuth';
 import './Booking.css';
 
@@ -42,7 +43,10 @@ const Booking = () => {
                     <input placeholder="Street Address" defaultValue="" {...register("address")} />
                     <label>Phone Number</label>
                     <input placeholder="phone number" defaultValue="" {...register("phone")} />
-                    <input className="btn btn-warning mt-3 w-50 mx-auto" type="submit" />
+
+                    <Link to="/booked">
+                        <input className="btn btn-warning mt-3 w-50 mx-auto" type="submit" />
+                    </Link>
                 </form>
             </div>
         </div>
