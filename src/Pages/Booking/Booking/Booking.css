@@ -1,0 +1,35 @@
+.booking-form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.booking-form input{
+    margin-bottom: 20px;
+}
+
+.booking-top{
+    border: 1px solid gray;
+    border-radius: 20px;
+    margin: 5% 20%;
+    padding: 5%;
+}
+
+.booking-img{
+    width: 60%;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 688px){
+    .booking-img{
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 689px) and (max-width: 991px){
+    .booking-img{
+        width: 80%;
+    }
+}
