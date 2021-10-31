@@ -19,7 +19,7 @@ const ManageBookings = () => {
             .then(data => {
                 console.log(data);
                 if (data.deletedCount) {
-                    alert('deleted successfully')
+                    window.confirm('Are you sure you want to delete this?');
                     const remaining = services.filter(service => service._id !== id);
                     setServices(remaining);
                 }

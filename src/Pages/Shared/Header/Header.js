@@ -18,11 +18,14 @@ const Header = () => {
                         <Navbar.Collapse id="responsive-navbar-nav">
                             <Nav className="ms-auto">
                                 <Nav.Link as={HashLink} to="/home#home">Home</Nav.Link>
-                                <Nav.Link as={HashLink} to="/home#locations">Locations</Nav.Link>
-                                <Nav.Link as={HashLink} to="/home#facilities">Facilities</Nav.Link>
+                                {/* <Nav.Link as={HashLink} to="/home#locations">Locations</Nav.Link> */}
+                                {/* <Nav.Link as={HashLink} to="/home#facilities">Facilities</Nav.Link> */}
                                 <Nav.Link as={HashLink} to="/home#about">About</Nav.Link>
                                 {user?.email ?
-                                    <Nav.Link as={Link} to="/manageBookings">Manage Bookings</Nav.Link> : ''
+                                    <Nav.Link as={Link} to="/myBookings">My Bookings</Nav.Link> : ''
+                                }
+                                {user?.email ?
+                                    <Nav.Link as={Link} to="/manageBookings">Manage All Bookings</Nav.Link> : ''
                                 }
                                 {user?.email ?
                                     <Nav.Link as={Link} to="/addService">Add Destination</Nav.Link> : ''
