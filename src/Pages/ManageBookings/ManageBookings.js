@@ -35,8 +35,7 @@ const ManageBookings = () => {
                     services.map(service => <div key={service._id}>
                         <div className="manage-booking">
                             <h3 className="mb-5">{service.destination}</h3>
-                            <button onClick={() => handleDelete(service._id)} className="btn btn-danger delete-btn">Delete</button>
-                            <button className="btn btn-warning">Update</button>
+                            <button onClick={() => handleDelete(service._id)} className="btn btn-danger">Delete</button>
                         </div>
                     </div>)
                 }

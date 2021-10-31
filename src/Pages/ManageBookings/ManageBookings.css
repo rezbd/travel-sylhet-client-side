@@ -2,9 +2,6 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
-    /* border: 1px solid gray; */
-    /* border-radius: 20px; */
-    /* background-color: grey; */
 }
 
 .manage-booking{
@@ -15,6 +12,3 @@
     padding-bottom: 15px;
 }
 
-.delete-btn{
-    margin-right: 15px;
-}
