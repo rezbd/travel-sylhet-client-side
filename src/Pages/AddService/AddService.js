@@ -11,7 +11,7 @@ const AddService = () => {
     // reset() to rest the form
     const onSubmit = data => {
         console.log(data)
-        axios.post('http://localhost:5000/services', data)
+        axios.post('https://quiet-coast-20979.herokuapp.com/services', data)
             .then(res => {
                 if (res.data.insertedId) {
                     alert('successfully added');
