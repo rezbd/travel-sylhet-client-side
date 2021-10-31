@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+import './ManageBookings.css';
 
 const ManageBookings = () => {
     const [services, setServices] = useState([])
@@ -28,13 +29,18 @@ const ManageBookings = () => {
 
     return (
         <div className="my-5">
-            <h2>Manage All Bookings</h2>
-            {
-                services.map(service => <div key={service._id}>
-                    <h3>{service.destination}</h3>
-                    <button onClick={() => handleDelete(service._id)} className="btn btn-warning">Delete</button>
-                </div>)
-            }
+            <h2 className="my-5">Manage All Bookings</h2>
+            <div className="manage-container">
+                {
+                    services.map(service => <div key={service._id}>
+                        <div className="manage-booking">
+                            <h3 className="mb-5">{service.destination}</h3>
+                            <button onClick={() => handleDelete(service._id)} className="btn btn-danger delete-btn">Delete</button>
+                            <button className="btn btn-warning">Update</button>
+                        </div>
+                    </div>)
+                }
+            </div>
         </div>
     );
 };
