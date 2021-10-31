@@ -1,3 +1,9 @@
 .location{
     border: 1px solid gray;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: rgb(215, 224, 219);
+}
+.tour-img{
+    border-radius: 10px;
 }

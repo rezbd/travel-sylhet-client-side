@@ -4,36 +4,42 @@ import './Facilities.css';
 const Facilities = () => {
     return (
         <div id="facilities">
-            <h2>Our Facilities</h2>
-            <div className="container px-4">
-                <div className="row gx-5">
-                    <div className="col-md-4">
-                        <div className="p-3 border bg-light">
-                            <p>Package Tours</p>
-                            <p>River Cruise</p>
-                            <p>City Sightseeing</p>
-                            <p>Cultural and Festival Tour</p>
+            <div id="stats" className="container mb-5 mt-5">
+                <div className="container text-center">
+                    <h2 className="py-3">Our Facilities</h2>
+                    <p className="py-2">
+                        Travel Sylhet provides a wide range of facilities to our valuable customers.
+                    </p>
+                </div>
+                <div className="container text-center">
+                    <div className="row g-3">
+                        <div className="col-12 col-lg-4">
+                            <div className="p-3 border bg-stats shadow">
+                                <h6>Package Tours</h6>
+                                <h6>River Cruise</h6>
+                                <h6>City Sightseeing</h6>
+                                <h6>Cultural and Festival Tour</h6>
+                            </div>
                         </div>
-                    </div>
-                    <div className="col-md-4">
-                        <div className="p-3 border bg-light">
-                            <p>Special Interest Tour</p>
-                            <p>Tailor made Tours</p>
-                            <p>Hotel Reservation</p>
-                            <p>Transport Rentals</p>
+                        <div className="col-12 col-lg-4">
+                            <div className="p-3 border bg-stats shadow">
+                                <h6>Special Interest Tour</h6>
+                                <h6>Tailor made Tours</h6>
+                                <h6>Hotel Reservation</h6>
+                                <h6>Transport Rentals</h6>
+                            </div>
                         </div>
-                    </div>
-                    <div className="col-md-4">
-                        <div className="p-3 border bg-light">
-                            <p>Outbound Tours</p>
-                            <p>Coordinating Study Tours</p>
-                            <p>Interpreter Service</p>
-                            <p>Domestic Air Tickets</p>
+                        <div className="col-12 col-lg-4">
+                            <div className="p-3 border bg-stats shadow">
+                                <h6>Outbound Tours</h6>
+                                <h6>Coordinating Study Tours</h6>
+                                <h6>Interpreter Service</h6>
+                                <h6>Domestic Air Tickets</h6>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-
 
         </div>
     );

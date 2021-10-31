@@ -28,13 +28,14 @@ const ManageBookings = () => {
     }
 
     return (
-        <div className="my-5 pt-4">
+        <div className="my-5 pt-4 container">
             <h2 className="my-5">Manage All Bookings</h2>
             <div className="manage-container">
                 {
                     services.map(service => <div key={service._id}>
                         <div className="manage-booking">
-                            <h3 className="mb-5">{service.destination}</h3>
+                            <h3 className="mb-3">{service.destination}</h3>
+                            <h5 className="mb-4">Price: BDT {service.cost}</h5>
                             <button onClick={() => handleDelete(service._id)} className="btn btn-danger">Delete</button>
                         </div>
                     </div>)
