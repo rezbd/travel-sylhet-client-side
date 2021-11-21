@@ -16,7 +16,7 @@ const Booking = () => {
         fetch(`https://quiet-coast-20979.herokuapp.com/services/${serviceId}`)
             .then(res => res.json())
             .then(data => setService(data));
-    }, [])
+    }, [serviceId])
 
     return (
         <div className="mt-5 pt-5">
