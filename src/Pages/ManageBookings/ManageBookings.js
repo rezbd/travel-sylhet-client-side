@@ -17,9 +17,9 @@ const ManageBookings = () => {
         })
             .then(res => res.json())
             .then(data => {
-                console.log(data);
+                // console.log(data);
                 if (data.deletedCount) {
-                    window.confirm('Are you sure you want to delete this?');
+                    // window.confirm('Are you sure you want to delete this?');
                     const remaining = services.filter(service => service._id !== id);
                     setServices(remaining);
                 }
@@ -36,7 +36,13 @@ const ManageBookings = () => {
                         <div className="manage-booking">
                             <h3 className="mb-3">{service.destination}</h3>
                             <h5 className="mb-4">Price: BDT {service.cost}</h5>
-                            <button onClick={() => handleDelete(service._id)} className="btn btn-danger">Delete</button>
+                            {/* <button onClick={() => handleDelete(service._id)} className="btn btn-danger">Delete</button> */}
+                            <button onClick={() => {
+                                const confirmBox = window.confirm("Are you sure to delete this item?")
+                                if (confirmBox === true) {
+                                    handleDelete(service?._id)
+                                }
+                            }} className="btn btn-danger">Delete</button>
                         </div>
                     </div>)
                 }
