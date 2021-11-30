@@ -31,10 +31,10 @@ const Header = () => {
                                     <Nav.Link as={Link} to="/addService">Add Tour</Nav.Link> : ''
                                 }
                                 {user?.email ?
-                                    <Button onClick={logOut} variant="warning">Logout</Button> :
+                                    <Button onClick={logOut} variant="warning" size="sm">Logout</Button> :
                                     <Nav.Link as={Link} to="/login">Login</Nav.Link>
                                 }
-                                <Navbar.Text>
+                                <Navbar.Text className="ms-2">
                                     Signed in as: <a href="#login">{user?.displayName}</a>
                                 </Navbar.Text>
                             </Nav>
